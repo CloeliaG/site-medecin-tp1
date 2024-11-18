@@ -1,0 +1,38 @@
+#contact__{
+    header {
+        text-align: center;
+        h1 {
+            color: rgb(44, 45, 47);
+        }
+    }
+
+    section {
+        background-color: #fefefe;
+        border-radius : 8px;
+        filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+        padding: 10px;
+        width: 350px;
+        justify-self: center;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            button {
+                color: white;
+                border-radius: 8px;
+                background-color: #1570EF;
+                border-color: #1570EF;
+                padding: 5px;
+            }
+
+            input, textarea {
+                border-color: #98A2B3;
+                border-radius: 5px;
+                padding : 5px;
+            }
+            
+        }
+    }
+}

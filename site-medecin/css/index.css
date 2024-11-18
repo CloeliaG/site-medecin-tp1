@@ -1,0 +1,27 @@
+#accueil__{
+    header {
+        h1 {
+            color : #1570EF;
+        }
+        h2 {
+            color: rgb(44, 45, 47);
+        }
+    }
+
+    section {
+        width: 75%;
+        justify-self: center;
+        .articles {
+            display: flex;
+            justify-content: space-between;
+
+            article {
+                width: 350px;
+                background-color: #fefefe;
+                border-radius : 8px;
+                filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+                padding: 10px;
+            }
+        }
+    }
+}
